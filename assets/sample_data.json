@@ -1,0 +1,27 @@
+{
+  "_comment": "样例数据：用于无 MCP Token 时自测优化引擎。价格与优惠券均为演示数据，非实时菜单。",
+  "menu": {
+    "items": [
+      {"code": "9900005456", "name": "巨无霸", "currentPrice": "25.5", "category": "主食"},
+      {"code": "9900005457", "name": "麦辣鸡腿堡", "currentPrice": "23.0", "category": "主食"},
+      {"code": "9900005458", "name": "板烧鸡腿堡", "currentPrice": "24.0", "category": "主食"},
+      {"code": "9900005459", "name": "双层吉士堡", "currentPrice": "18.5", "category": "主食"},
+      {"code": "9900005460", "name": "麦香鱼", "currentPrice": "20.0", "category": "主食"},
+      {"code": "9900005461", "name": "1+1随心配（红区）", "currentPrice": "12.9", "category": "combo"},
+      {"code": "9900005462", "name": "麦乐鸡（4块）", "currentPrice": "12.5", "category": "小食"},
+      {"code": "9900005463", "name": "薯条（大）", "currentPrice": "14.0", "category": "小食"},
+      {"code": "9900005464", "name": "洋葱圈", "currentPrice": "11.0", "category": "小食"},
+      {"code": "9900005465", "name": "可乐（中）", "currentPrice": "10.0", "category": "饮料"},
+      {"code": "9900005466", "name": "雪碧（中）", "currentPrice": "10.0", "category": "饮料"},
+      {"code": "9900005467", "name": "香芋派", "currentPrice": "8.5", "category": "甜品"},
+      {"code": "9900005468", "name": "圆筒冰淇淋", "currentPrice": "6.0", "category": "甜品"}
+    ]
+  },
+  "coupons": {
+    "coupons": [
+      {"couponId": "C001", "name": "满30减5", "discount": 500, "minSpend": 3000, "kind": "threshold"},
+      {"couponId": "C002", "name": "麦乐鸡专享券", "discount": 300, "productCodes": ["9900005462"]},
+      {"couponId": "C003", "name": "薯条立减3元", "discount": 300, "productCodes": ["9900005463"]}
+    ]
+  }
+}
